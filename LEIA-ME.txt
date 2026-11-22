@@ -1,0 +1,29 @@
+NA ONDA - ROLETA DA FÍSICA
+
+1. Abra o site e informe o nome do participante.
+2. Assista ao vídeo até o final para liberar a roleta.
+3. Gire a roleta. As dez perguntas não se repetem dentro do mesmo ciclo.
+4. O participante tem até três minutos para escolher e confirmar A, B, C ou D.
+5. Confira a explicação e passe para o próximo participante.
+
+RANKING
+Cada acerto vale 100 pontos. Empates são resolvidos pelo maior aproveitamento,
+depois pelo menor tempo médio. Nomes iguais, sem diferença de maiúsculas e
+minúsculas, são agrupados. Erros e tempo esgotado não somam pontos.
+
+RESULTADOS
+O ranking e o histórico ficam salvos no navegador deste dispositivo.
+O modo foi feito para uma turma jogar por turnos na mesma tela.
+Os registros não são sincronizados entre celulares ou computadores diferentes.
+Na aba Resultados, é possível filtrar, buscar por nome e baixar uma planilha CSV.
+
+JOGAR NOVAMENTE
+Depois de dez sorteios, use "Jogar mais 10 perguntas". O ranking é preservado.
+Para uma turma nova, baixe o histórico e depois use "Limpar histórico da turma".
+
+USO LOCAL
+A pasta dist contém o site e o vídeo completo. Não depende de serviços de quiz.
+Sirva a pasta dist em um servidor HTTP estático. Exemplo com Python:
+python -m http.server 8080 --directory dist
+Depois abra http://localhost:8080 .
+As fontes externas são opcionais; o site usa fontes locais se estiver offline.
